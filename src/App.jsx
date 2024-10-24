@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <h1>Welcome to My Portfolio</h1>
-      <p>This is where I will showcase my projects.</p>
+      <p>Hello.</p>
     </div>
   );
 }
