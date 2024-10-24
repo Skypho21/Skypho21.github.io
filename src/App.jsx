@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
+import { Box, Heading, Text } from "@chakra-ui/react";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is where I will showcase my projects.</p>
-    </div>
+    <Box>
+      <Header />
+      <Box p={5}>
+        <Heading as="h1" size="xl" textAlign="center" mb={10}>
+          My Portfolio
+        </Heading>
+        <Projects />
+        <About />
+        <Contact />
+      </Box>
+    </Box>
   );
 }
 
