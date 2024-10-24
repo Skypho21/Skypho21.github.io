@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite';
+import replace from 'vite-plugin-replace';
 
 export default defineConfig({
-  ssr: {
-    noExternal: ['@ark-ui/react'],  // Make sure @ark-ui/react is treated as an internal module.
-  },
+  plugins: [
+    replace({
+      '__vite_ignore__': 'use client',
+    }),
+  ],
   build: {
     rollupOptions: {
       external: ['@ark-ui/react'],

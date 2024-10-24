@@ -4,9 +4,7 @@ function App() {
   return (
     <div>
       <h1>Welcome to My Portfolio</h1>
-      <p>Helldf dfd gfdo.</p>
-      <p>as;dlf
-      </p>
+      <p>This is where I will showcase my projects.</p>
     </div>
   );
 }
