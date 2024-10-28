@@ -2,6 +2,8 @@ import { Flex, Box, Link, Heading } from "@chakra-ui/react";
 
 function Header() {
   return (
+    <>
+    <div>Basic Header Test</div>
     <Flex
       as="header"
       bg="teal.500"
@@ -17,6 +19,7 @@ function Header() {
         <Link href="#contact" p={2} _hover={{ textDecoration: "underline" }}>Contact</Link>
       </Box>
     </Flex>
+    </>
   );
 }
 
